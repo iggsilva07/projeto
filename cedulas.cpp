@@ -15,7 +15,7 @@ int main(){
     ced10 = (((cedula%100)%50)%20)/10;
     ced5 = ((((cedula%100)%50)%20)%10)/5;
     ced2 = (((((cedula%100)%50)%20)%10)%5)/2;
-    ced1 =((((((cedula%100)%50)%20)%10)%5)%2)/1;
+    ced1 = ((((((cedula%100)%50)%20)%10)%5)%2)/1;
 
     cout << cedula << endl;
     cout << ced100 << " nota(s) de R$ 100,00" << endl;
